@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Form</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="text-center">Project Management Form</h2>
+
+        <form id="projectForm">
+
+            <div class="form-group">
+                <label>Project ID</label>
+                <input type="text" class="form-control" id="projectId" placeholder="Enter Project ID">
+            </div>
+
+            <div class="form-group">
+                <label>Project Name</label>
+                <input type="text" class="form-control" id="projectName" placeholder="Enter Project Name">
+            </div>
+
+            <div class="form-group">
+                <label>Assigned To</label>
+                <input type="text" class="form-control" id="assignedTo" placeholder="Assigned Person">
+            </div>
+
+            <div class="form-group">
+                <label>Assignment Date</label>
+                <input type="date" class="form-control" id="assignmentDate">
+            </div>
+
+            <div class="form-group">
+                <label>Deadline</label>
+                <input type="date" class="form-control" id="deadline">
+            </div>
+
+            <input type="button" class="btn btn-success" id="saveBtn" value="Save" onclick="saveProject();">
+
+            <input type="button" class="btn btn-primary" id="updateBtn" value="Update" onclick="updateProject();">
+
+            <input type="button" class="btn btn-danger" id="resetBtn" value="Reset" onclick="resetForm();">
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
