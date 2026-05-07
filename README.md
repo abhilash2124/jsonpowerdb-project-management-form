@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Management Form using JsonPowerDB
 
 ## Description
@@ -48,3 +49,6 @@ Project completed successfully.
 ## Sources
 - JsonPowerDB Documentation
 - Login2Xplore Course Material
+=======
+# jsonpowerdb-project-management-form
+>>>>>>> 9465c3257daf722bafacda62bb81e0e956634685
